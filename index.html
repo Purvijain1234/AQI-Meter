@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQI Meter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <div class="container">
+           <h1>Air Quality Index (AQI)</h1>
+           <h5>Date: <span id="date"></span></h5>
+       
+           <h2>New Delhi AQI: <span id="delhi-aqi" class="loading">Loading...</span></h2>
+           <div>
+               <h2>Your Location AQI: <span id="user-aqi" class="loading">Loading...</span></h2>
+               <input type="text" id="location" placeholder="Enter location">
+               <button onclick="getLocationAQI()">Get AQI</button>
+               <h2>Location AQI: <span id="location-aqi" class="loading">Not Fetched</span></h2>
+           </div>
+        
+
+        <div class="aqi-tube">
+            <div class="needle" id="needle"></div>
+        </div>
+
+        <div class="aqi-scale-labels">
+            <span class="aqi-scale-label">Good</span>
+            <span class="aqi-scale-label">Moderate</span>
+            <span class="aqi-scale-label">Unhealthy</span>
+            <span class="aqi-scale-label">Very Unhealthy</span>
+            <span class="aqi-scale-label">Hazardous</span>
+        </div>
+    </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
