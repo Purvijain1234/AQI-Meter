@@ -5,14 +5,6 @@ Users can check AQI for any location by entering its name, and the app visually 
 
 ---
 
-## 📸 Screenshot
-
-> Replace the image path below with your actual screenshot file inside your repository.
-
-![AQI Meter Screenshot](./screenshot.png)
-
----
-
 ## ⭐ Features
 
 - Shows AQI using a color-coded gauge (Good → Hazardous)
@@ -20,20 +12,6 @@ Users can check AQI for any location by entering its name, and the app visually 
 - Allows users to enter any location and fetch its AQI
 - Simple, clean UI with strong visual indicators
 - Fully responsive for desktop and mobile screens
-
----
-
-## 📂 Project Structure
-
-/
-|-- index.html # Main structure
-|-- styles.css # UI styling
-|-- script.js # Logic for AQI fetching + meter update
-|-- assets/ # (optional) images or screenshots
-|-- README.md # Project documentation
-
-yaml
-Copy code
 
 ---
 
@@ -47,38 +25,6 @@ Copy code
 3. Enter any location in the input box.
 4. Click **Get AQI**.
 5. The meter will update and show the air quality for the entered location.
-
----
-
-## 🔧 API Configuration
-
-To enable real AQI fetching:
-
-1. Open `script.js`
-2. Locate the API request section
-3. Replace with your preferred AQI API provider, such as:
-
-- OpenWeather Air Pollution API  
-- WAQI (World Air Quality Index) API  
-- Government AQI APIs  
-
-4. Add your API key (if required)
-
----
-
-## 🎨 Customization
-
-You can modify:
-
-- Colors of the AQI meter  
-- Font sizes and UI theme  
-- AQI threshold values  
-- Default location (e.g., New Delhi)  
-- Animation speed of the pointer  
-
-All customization can be done in:
-- `styles.css` (UI)
-- `script.js` (logic)
 
 ---
 
@@ -96,10 +42,8 @@ The project is fully static and can be hosted anywhere:
 
 ### Other hosting options:
 - Netlify  
-- Vercel  
-- Cloudflare Pages  
-- Any static hosting server  
-
+- Vercel
+- 
 ---
 
 ## 🤝 Contributing
@@ -110,9 +54,6 @@ Steps:
 1. Fork this repository
 2. Create a new branch  
 git checkout -b feature-name
-
-yaml
-Copy code
 3. Make changes and commit  
 4. Open a pull request
 
@@ -125,8 +66,3 @@ Add a LICENSE file (MIT recommended) if needed.
 
 ---
 
-## 📘 Author
-
-Developed as a simple and efficient tool to check AQI visually and interactively.
-
----
